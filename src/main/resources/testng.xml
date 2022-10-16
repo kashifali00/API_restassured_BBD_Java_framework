@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="API Test Automation" verbose="1">
+    <test verbose="1" name="API" parallel="false">
+        <classes>
+            <class name="com.api.test.TestRunner"></class>
+
+        </classes>
+    </test>
+</suite>
