@@ -15,6 +15,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.testng.Assert;
 
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.HashMap;
 
 import static io.restassured.RestAssured.filters;
@@ -238,6 +241,10 @@ public class RestServiceLibrary {
         body = response.getBody();
         responseBody = body.asString();
         return responseBody;
+    }
+
+    public String getJsonAsString(String path) throws IOException {
+        return new String(Files.readAllBytes(Paths.get(path)));
     }
 
 

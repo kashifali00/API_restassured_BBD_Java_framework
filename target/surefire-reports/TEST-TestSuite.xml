@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.551" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\KashifAli\API_restassured_BBD_Java_framework\target\test-classes;C:\Users\KashifAli\API_restassured_BBD_Java_framework\target\classes;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\KashifAli\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-testng\7.8.1\cucumber-testng-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\KashifAli\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\KashifAli\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KashifAli\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KashifAli\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KashifAli\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KashifAli\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KashifAli\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\KashifAli\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\KashifAli\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\KashifAli\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\KashifAli\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\KashifAli\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\KashifAli\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\KashifAli\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\KashifAli\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\KashifAli\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\KashifAli\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\KashifAli\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\KashifAli\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\KashifAli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0-rc1\jackson-databind-2.14.0-rc1.jar;C:\Users\KashifAli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0-rc1\jackson-annotations-2.14.0-rc1.jar;C:\Users\KashifAli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0-rc1\jackson-core-2.14.0-rc1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin"/>
+    <property name="sun.java.command" value="C:\Users\KashifAli\AppData\Local\Temp\surefire7792497850107168689\surefirebooter-20221025111610524_3.jar C:\Users\KashifAli\AppData\Local\Temp\surefire7792497850107168689 2022-10-25T11-16-09_372-jvmRun1 surefire-20221025111610524_1tmp surefire_0-20221025111610524_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\KashifAli\API_restassured_BBD_Java_framework\target\test-classes;C:\Users\KashifAli\API_restassured_BBD_Java_framework\target\classes;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-java\7.8.1\cucumber-java-7.8.1.jar;C:\Users\KashifAli\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-core\7.8.1\cucumber-core-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-gherkin\7.8.1\cucumber-gherkin-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.1\cucumber-gherkin-messages-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\datatable\7.8.1\datatable-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-plugin\7.8.1\cucumber-plugin-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\docstring\7.8.1\docstring-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\KashifAli\.m2\repository\io\cucumber\cucumber-testng\7.8.1\cucumber-testng-7.8.1.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\rest-assured\5.2.0\rest-assured-5.2.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\groovy\groovy\4.0.1\groovy-4.0.1.jar;C:\Users\KashifAli\.m2\repository\org\apache\groovy\groovy-xml\4.0.1\groovy-xml-4.0.1.jar;C:\Users\KashifAli\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\KashifAli\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\KashifAli\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\KashifAli\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\KashifAli\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\KashifAli\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\KashifAli\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\xml-path\5.2.0\xml-path-5.2.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\json-path\5.2.0\json-path-5.2.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\groovy\groovy-json\4.0.1\groovy-json-4.0.1.jar;C:\Users\KashifAli\.m2\repository\io\rest-assured\rest-assured-common\5.2.0\rest-assured-common-5.2.0.jar;C:\Users\KashifAli\.m2\repository\com\google\code\gson\gson\2.9.1\gson-2.9.1.jar;C:\Users\KashifAli\.m2\repository\org\testng\testng\7.6.1\testng-7.6.1.jar;C:\Users\KashifAli\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\KashifAli\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\KashifAli\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\KashifAli\.m2\repository\org\webjars\jquery\3.6.0\jquery-3.6.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\logging\log4j\log4j-core\2.19.0\log4j-core-2.19.0.jar;C:\Users\KashifAli\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar;C:\Users\KashifAli\.m2\repository\com\aventstack\extentreports\5.0.9\extentreports-5.0.9.jar;C:\Users\KashifAli\.m2\repository\io\reactivex\rxjava3\rxjava\3.0.4\rxjava-3.0.4.jar;C:\Users\KashifAli\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\KashifAli\.m2\repository\org\freemarker\freemarker\2.3.30\freemarker-2.3.30.jar;C:\Users\KashifAli\.m2\repository\org\projectlombok\lombok\1.18.12\lombok-1.18.12.jar;C:\Users\KashifAli\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0-rc1\jackson-databind-2.14.0-rc1.jar;C:\Users\KashifAli\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0-rc1\jackson-annotations-2.14.0-rc1.jar;C:\Users\KashifAli\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0-rc1\jackson-core-2.14.0-rc1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KashifAli"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\KashifAli\API_restassured_BBD_Java_framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\KashifAli\AppData\Local\Temp\surefire7792497850107168689\surefirebooter-20221025111610524_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+11-LTS-199"/>
+    <property name="user.name" value="KashifAli"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\KashifAli\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\KashifAli\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="cucumber.filter.tags" value="@ViewItem"/>
+    <property name="user.dir" value="C:\Users\KashifAli\API_restassured_BBD_Java_framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\KashifAli\AppData\Local\Android\Sdk\build-tools\29.0.3;C:\Users\KashifAli\AppData\Local\Android\Sdk\emulator;C:\Users\KashifAli\AppData\Local\Android\Sdk\platform-tools;C:\Users\KashifAli\AppData\Local\Android\Sdk\tools\bin;C:\Users\KashifAli\AppData\Local\Android\Sdk\tools;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Install\scoop\apps\allure\2.14.0\bin;C:\Program Files\dotnet\;C:\Program Files\gradle-7.4.2\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-11.0.16\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Users\Install\scoop\shims;C:\Users\KashifAli\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;;;C:\Users\KashifAli\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\KashifAli\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2022.2.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.16+11-LTS-199"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Verify that user is able to view cart&quot;, &quot;View Cart Functionality&quot;](1)" classname="com.api.test.TestRunner" time="5.961">
+    <system-out><![CDATA[running before class
+
+@ViewItem
+Scenario: Verify that user is able to view cart &amp#27;[90m# src/test/resources/Features/ViewCart.feature:4&amp#27;[0m
+2022-10-25 11:16:14 INFO  ConfigManager:37 - executing getinstancemethod
+2022-10-25 11:16:14 INFO  ConfigManager:23 - Loading properties files
+2022-10-25 11:16:14 INFO  ConfigManager:26 - File name :C:\Users\KashifAli\API_restassured_BBD_Java_framework\src\main\resources\config.properties
+2022-10-25 11:16:14 INFO  ConfigManager:28 - properties file loaded successfully
+Returing value from key [baseURL] :https://api.demoblaze.com
+2022-10-25 11:16:14 INFO  RestServiceLibrary:36 - RestServiceLibraryConstructor :: Setting up BaseURI & Port
+2022-10-25 11:16:15 INFO  RestServiceLibrary:38 - BASE_URI :[https://api.demoblaze.com]
+2022-10-25 11:16:15 INFO  ViewCart:32 - Executing viewCart Given statement
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on demoblaze&amp#27;[0m                    &amp#27;[90m# StepDefinitions.ViewCart.user_is_on_demoblaze()&amp#27;[0m
+2022-10-25 11:16:15 INFO  ViewCart:39 - Executing viewCart When block
+2022-10-25 11:16:15 INFO  RestServiceLibrary:201 - <Executing httpPostMethod> 
+Request method:	POST
+Request URI:	https://api.demoblaze.com/viewcart
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json, application/javascript, text/javascript, text/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "cookie": "user=8672d7fe-6d1f-c700-07ca-202985bdd8ca",
+    "flag": false,
+    "prodId": null
+}
+HTTP/1.1 200 OK
+Content-Type: application/json
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Cloud-Trace-Context: 34e2a5ddd9f932cf8573d1d8e77a052e
+Date: Tue, 25 Oct 2022 06:16:19 GMT
+Server: Google Frontend
+Cache-Control: private
+Transfer-Encoding: chunked
+
+{
+    "Items": [
+        {
+            "cookie": "user=8672d7fe-6d1f-c700-07ca-202985bdd8ca",
+            "id": "c1e8cbd0-00fb-af01-cddb-a7d5f9680ced",
+            "prod_id": 3
+        }
+    ]
+}
+2022-10-25 11:16:19 INFO  RestServiceLibrary:209 - Response :: {"Items":[{"cookie":"user=8672d7fe-6d1f-c700-07ca-202985bdd8ca","id":"c1e8cbd0-00fb-af01-cddb-a7d5f9680ced","prod_id":3}]}
+
+2022-10-25 11:16:19 INFO  RestServiceLibrary:211 - <httpPostMethod EXECUTED SUCCESSFULLY>
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser hit endpoint viewcart&amp#27;[0m               &amp#27;[90m# StepDefinitions.ViewCart.user_hit_endpoint_viewcart()&amp#27;[0m
+pojoviewcartuser=8672d7fe-6d1f-c700-07ca-202985bdd8ca
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mResponse status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m            &amp#27;[90m# StepDefinitions.ViewCart.response_status_should_be_ok(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,3 @@
+StepDefinitions\AddItem.class
+StepDefinitions\DeleteCart.class
+StepDefinitions\ViewCart.class
